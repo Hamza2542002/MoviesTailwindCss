@@ -28,17 +28,33 @@
 let header = document.querySelector("header");
 let menuIcon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
+let logo = document.querySelector("#logo");
 
-
-
-
-menuIcon.onclick = () => {
-  navbar.classList.toggle("active");
-}
+menuIcon.addEventListener('click', () => {
+  navbar.classList.toggle('hidden');
+});
 window.onscroll = () => {
-  navbar.classList.remove("active");
+  navbar.classList.remove("bg-transparent");
 }
 window.addEventListener('scroll', () => {
-    header.classList.toggle("shadow" , window.scrollY > 0);
+  if(window.scrollY > 0) {
+    header.classList.add("bg-light");
+    header.classList.remove("bg-transparent");
+
+    menuIcon.classList.add("text-dark");
+    menuIcon.classList.remove("text-light");
+
+    logo.classList.add("text-dark");
+    logo.classList.remove("text-light");
+  } else if(window.scrollY === 0) {
+    header.classList.remove("bg-light");
+    header.classList.add("bg-transparent");
+
+    menuIcon.classList.remove("text-dark");
+    menuIcon.classList.add("text-light");
+
+    logo.classList.remove("text-dark");
+    logo.classList.add("text-light");
+  }
 });
 
