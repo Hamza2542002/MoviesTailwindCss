@@ -2,6 +2,26 @@
 
 A modern, responsive movie showcase website built with HTML and Tailwind CSS. This project demonstrates a complete refactoring from custom CSS to utility-first Tailwind CSS framework.
 
+## 🔗 Quick Links
+
+- [🚀 Live Demo](#-live-demo)
+- [🌟 Features](#-features)
+- [🛠️ Technologies Used](#️-technologies-used)
+- [📁 Project Structure](#-project-structure)
+- [🎨 Design System](#-design-system)
+- [🔧 Key Tailwind Classes](#-key-tailwind-classes-used)
+- [🎯 Refactoring Highlights](#-refactoring-highlights)
+- [📋 Sections Overview](#-sections-overview)
+- [🎨 Custom Components](#-custom-components)
+- [🚀 Getting Started](#-getting-started)
+- [📝 Customization Guide](#-customization-guide)
+
+## 🚀 Live Demo
+
+🌐 **[View Live Demo](https://hamza2542002.github.io/MoviesTailwindCss/)**
+
+You can also open `index.html` in your browser to view the website locally.
+
 ## 🌟 Features
 
 - **Responsive Design**: Fully responsive layout that works on all devices
@@ -24,7 +44,9 @@ A modern, responsive movie showcase website built with HTML and Tailwind CSS. Th
 
 ## 🚀 Live Demo
 
-Open `index.html` in your browser to view the website.
+🌐 **[View Live Demo](https://hamza2542002.github.io/MoviesTailwindCss/)**
+
+You can also open `index.html` in your browser to view the website locally.
 
 ## 📁 Project Structure
 
